@@ -22,7 +22,7 @@ Create an object of class GMailSender :
  Pass Subject Content of EMAIL and Receiver Email Address.
  
  ```java
-3.  sender.sendMail("EmailSubject", "Email Content", Sender_Email_Address, Receiver_Email_Address);
+3.  sender.sendMail("Email Subject", "Email Content", Sender_Email_Address, Receiver_Email_Address);
 
  ```
 
