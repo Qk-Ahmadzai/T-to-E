@@ -1,0 +1,4 @@
+<resources>
+    <string name="app_name">T to E</string>
+    <string name="title_activity_sms_list_view">SmsListView</string>
+</resources>

@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+    android:background="#ffffff">
+
+    <LinearLayout
+        android:id="@+id/listViewlay"
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true">
+    <LinearLayout
+        android:id="@+id/layBar"
+        android:orientation="horizontal"
+        android:layout_width="match_parent"
+        android:layout_alignParentTop="true"
+        android:background="@drawable/lables"
+        android:layout_height="45dp"
+        android:layout_centerHorizontal="true">
+
+        <Button
+            android:layout_width="32dp"
+            android:layout_height="32dp"
+            android:id="@+id/btnSync"
+            android:layout_marginLeft="6dp"
+            android:background="@drawable/sync" />
+
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:text="Title"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:layout_marginLeft="8dp"
+            android:textColor="#ffffff"
+            android:id="@+id/txt_u_s_Title"
+            android:gravity="center_vertical" />
+
+    </LinearLayout>
+
+        <ListView
+            android:layout_margin="10dp"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:id="@+id/listView" />
+
+    </LinearLayout>
+
+</RelativeLayout>

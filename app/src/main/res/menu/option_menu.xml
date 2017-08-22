@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+
+
+      <item android:id="@+id/menu_inbox"
+        android:title="Inbox" />
+
+    <item android:id="@+id/menu_sent"
+        android:title="Sent" />
+
+    <item android:id="@+id/menu_unsent"
+        android:title="Unsent" />
+
+    <item android:id="@+id/menu_setting"
+        android:title="Setting" />
+
+    <item android:id="@+id/menu_white_list"
+        android:title="White List" />
+
+    <item android:id="@+id/menu_about"
+        android:title="About" />
+
+    <item android:id="@+id/menu_help"
+        android:title="Help" />
+
+</menu>
