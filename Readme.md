@@ -43,4 +43,4 @@ $ component installed
 
 ## Notes
 
-no need of Note feel free to use the code.
+Note feel free to use the code.
