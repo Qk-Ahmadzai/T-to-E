@@ -29,7 +29,7 @@ Create an object of class GMailSender :
 
 ## Installed dependencies and JAR file.
 
-Jar Files is Added to C:/Sms006/libs/:
+Jar Files is Added to /Sms006/libs/:
 
 ```json
 $ component installed
